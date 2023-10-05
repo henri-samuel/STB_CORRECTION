@@ -1,0 +1,24 @@
+$io_nl
+  dir_in            = './INPUT_DIR/'
+  stem_in           = 'STB11' 
+  dir_out           = './OUTPUT_DIR/' 
+  stem_out          = 'STB11_Vbox'
+  iframe_start      = 1
+  iframe_end        = 10 
+  nwrite            = 1
+  write_vtk         = .TRUE.
+  binary_vtk        = .TRUE.
+&end
+
+$solver_nl
+  ngmax          = 5
+  nmaxit         = 20000
+  w_cont         = 0.95 
+  nvee           = 200
+  errmax_multi   = 1E-5
+  niter_finest   = 8 
+  nx             = 160 
+  ny             = 48 
+  nz             = 96
+  non_dim        = .FALSE.
+&end

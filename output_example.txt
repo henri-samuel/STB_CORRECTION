@@ -1,0 +1,298 @@
+ ------------------------------------------------------------------- 
+ Reading file: ./INPUT_DIR/STB11_1.dat
+ Processing frame:           1
+ arx_orig=  0.38462202154999997      ary_orig=  0.10924175759999999      arz_orig=  0.23896634475000000     
+ x orig range:  -4.8682101100000000E-002  0.33593992044999998     
+ y orig range:  -1.1209957300000000E-004  0.10912965802699999     
+ z orig range:  -3.3874500500000002E-002  0.20509184424999999     
+ vrms dim (m/s)=   3.0191295185198331E-003 vms ND=   3293.6488361871529      Re= rho0  vrms L /eta0=     107.75881783241275     
+ Pr = eta/(rho*Kappa) =   30.565005281604499      Kappa re-estimated=   4.2840169106271685E-007
+ ==> Writing in vtk file: VTK/All_div_initial_node_1.vtk
+ ==> Writing in vtk file: VTK/All_V_initial_dim_node_1.vtk
+ ==> Writing in vtk file: VTK/All_div_initial_interp_node_1.vtk
+ ==> Writing in vtk file: VTK/All_V_initial_interp_node_1.vtk
+ ======================================================================
+ Geometric multigrid ==> number of grid levels:           5
+ Grid :           1 nx=         160 ny=          48 nz=          96
+ Grid :           2 nx=          80 ny=          24 nz=          48
+ Grid :           3 nx=          40 ny=          12 nz=          24
+ Grid :           4 nx=          20 ny=           6 nz=          12
+ Grid :           5 nx=          10 ny=           3 nz=           6
+ ======================================================================
+ Poisson MG V-cycle       RMS residual           <div(v)>/Vrms           Vrms
+    1              |      0.5530E-02          |   0.7248E+00          |  0.364207E-02
+    2              |      0.6284E-03          |   0.8992E-01          |  0.364163E-02
+    3              |      0.8385E-04          |   0.1172E-01          |  0.364160E-02
+    4              |      0.1147E-04          |   0.1601E-02          |  0.364160E-02
+    5              |      0.1598E-05          |   0.2281E-03          |  0.364160E-02
+    6              |      0.2278E-06          |   0.3367E-04          |  0.364160E-02
+    7              |      0.3338E-07          |   0.5124E-05          |  0.364160E-02
+    8              |      0.5031E-08          |   0.8000E-06          |  0.364160E-02
+
+ div(v): max=   1.3618309832597042E-007 mean=   2.9131571622652668E-009 mean/vrms=   9.6489969853743778E-007
+ vrms initial=   3.0191295185198331E-003
+ vrms final=   3.6415999390100851E-003
+ ==> Writing in vtk file: VTK/All_div_final_node_1.vtk
+ ==> Writing in vtk file: VTK/All_P_final_node_1.vtk
+ ==> Writing in vtk file: VTK/All_V_final_node_1.vtk
+ ==> Writing in vtk file: VTK/All_deltaV_node_1.vtk
+ Output results in :./OUTPUT_DIR/STB11_Vbox_1.dat
+ ------------------------------------------------------------------- 
+ Reading file: ./INPUT_DIR/STB11_2.dat
+ Processing frame:           2
+ arx_orig=  0.38462202154999997      ary_orig=  0.10924175759999999      arz_orig=  0.23896634475000000     
+ x orig range:  -4.8682101100000000E-002  0.33593992044999998     
+ y orig range:  -1.1209957300000000E-004  0.10912965802699999     
+ z orig range:  -3.3874500500000002E-002  0.20509184424999999     
+ vrms dim (m/s)=   3.0105822383223709E-003 vms ND=   3284.3243804782310      Re= rho0  vrms L /eta0=     107.45374817438346     
+ Pr = eta/(rho*Kappa) =   30.565005281604499      Kappa re-estimated=   4.2840169106271685E-007
+ ==> Writing in vtk file: VTK/All_div_initial_node_2.vtk
+ ==> Writing in vtk file: VTK/All_V_initial_dim_node_2.vtk
+ ==> Writing in vtk file: VTK/All_div_initial_interp_node_2.vtk
+ ==> Writing in vtk file: VTK/All_V_initial_interp_node_2.vtk
+ Poisson MG V-cycle       RMS residual           <div(v)>/Vrms           Vrms
+    1              |      0.4952E-02          |   0.6349E+00          |  0.363950E-02
+    2              |      0.5417E-03          |   0.7617E-01          |  0.363915E-02
+    3              |      0.7132E-04          |   0.9817E-02          |  0.363913E-02
+    4              |      0.9702E-05          |   0.1338E-02          |  0.363913E-02
+    5              |      0.1347E-05          |   0.1910E-03          |  0.363913E-02
+    6              |      0.1916E-06          |   0.2828E-04          |  0.363913E-02
+    7              |      0.2805E-07          |   0.4311E-05          |  0.363913E-02
+    8              |      0.4234E-08          |   0.6731E-06          |  0.363913E-02
+
+ div(v): max=   1.0588996662841410E-007 mean=   2.4493515351464589E-009 mean/vrms=   8.1358067684320936E-007
+ vrms initial=   3.0105822383223709E-003
+ vrms final=   3.6391270515296163E-003
+ ==> Writing in vtk file: VTK/All_div_final_node_2.vtk
+ ==> Writing in vtk file: VTK/All_P_final_node_2.vtk
+ ==> Writing in vtk file: VTK/All_V_final_node_2.vtk
+ ==> Writing in vtk file: VTK/All_deltaV_node_2.vtk
+ Output results in :./OUTPUT_DIR/STB11_Vbox_2.dat
+ ------------------------------------------------------------------- 
+ Reading file: ./INPUT_DIR/STB11_3.dat
+ Processing frame:           3
+ arx_orig=  0.38462202154999997      ary_orig=  0.10924175759999999      arz_orig=  0.23896634475000000     
+ x orig range:  -4.8682101100000000E-002  0.33593992044999998     
+ y orig range:  -1.1209957300000000E-004  0.10912965802699999     
+ z orig range:  -3.3874500500000002E-002  0.20509184424999999     
+ vrms dim (m/s)=   2.9729163461796305E-003 vms ND=   3243.2336551354147      Re= rho0  vrms L /eta0=     106.10937656494859     
+ Pr = eta/(rho*Kappa) =   30.565005281604499      Kappa re-estimated=   4.2840169106271685E-007
+ ==> Writing in vtk file: VTK/All_div_initial_node_3.vtk
+ ==> Writing in vtk file: VTK/All_V_initial_dim_node_3.vtk
+ ==> Writing in vtk file: VTK/All_div_initial_interp_node_3.vtk
+ ==> Writing in vtk file: VTK/All_V_initial_interp_node_3.vtk
+ Poisson MG V-cycle       RMS residual           <div(v)>/Vrms           Vrms
+    1              |      0.4835E-02          |   0.6245E+00          |  0.362187E-02
+    2              |      0.5565E-03          |   0.7680E-01          |  0.362151E-02
+    3              |      0.7437E-04          |   0.1003E-01          |  0.362149E-02
+    4              |      0.1019E-04          |   0.1384E-02          |  0.362149E-02
+    5              |      0.1422E-05          |   0.1996E-03          |  0.362149E-02
+    6              |      0.2034E-06          |   0.2977E-04          |  0.362149E-02
+    7              |      0.2987E-07          |   0.4559E-05          |  0.362149E-02
+    8              |      0.4510E-08          |   0.7139E-06          |  0.362149E-02
+
+ div(v): max=   1.3129279941015426E-007 mean=   2.5852051886658179E-009 mean/vrms=   8.6958558117114735E-007
+ vrms initial=   2.9729163461796305E-003
+ vrms final=   3.6214910501946203E-003
+ ==> Writing in vtk file: VTK/All_div_final_node_3.vtk
+ ==> Writing in vtk file: VTK/All_P_final_node_3.vtk
+ ==> Writing in vtk file: VTK/All_V_final_node_3.vtk
+ ==> Writing in vtk file: VTK/All_deltaV_node_3.vtk
+ Output results in :./OUTPUT_DIR/STB11_Vbox_3.dat
+ ------------------------------------------------------------------- 
+ Reading file: ./INPUT_DIR/STB11_4.dat
+ Processing frame:           4
+ arx_orig=  0.38462202154999997      ary_orig=  0.10924175759999999      arz_orig=  0.23896634475000000     
+ x orig range:  -4.8682101100000000E-002  0.33593992044999998     
+ y orig range:  -1.1209957300000000E-004  0.10912965802699999     
+ z orig range:  -3.3874500500000002E-002  0.20509184424999999     
+ vrms dim (m/s)=   2.9466773999985794E-003 vms ND=   3214.6088896121501      Re= rho0  vrms L /eta0=     105.17285568888343     
+ Pr = eta/(rho*Kappa) =   30.565005281604499      Kappa re-estimated=   4.2840169106271685E-007
+ ==> Writing in vtk file: VTK/All_div_initial_node_4.vtk
+ ==> Writing in vtk file: VTK/All_V_initial_dim_node_4.vtk
+ ==> Writing in vtk file: VTK/All_div_initial_interp_node_4.vtk
+ ==> Writing in vtk file: VTK/All_V_initial_interp_node_4.vtk
+ Poisson MG V-cycle       RMS residual           <div(v)>/Vrms           Vrms
+    1              |      0.4784E-02          |   0.6270E+00          |  0.360276E-02
+    2              |      0.5611E-03          |   0.7776E-01          |  0.360238E-02
+    3              |      0.7439E-04          |   0.1005E-01          |  0.360236E-02
+    4              |      0.1002E-04          |   0.1357E-02          |  0.360236E-02
+    5              |      0.1371E-05          |   0.1909E-03          |  0.360236E-02
+    6              |      0.1919E-06          |   0.2788E-04          |  0.360236E-02
+    7              |      0.2767E-07          |   0.4208E-05          |  0.360236E-02
+    8              |      0.4125E-08          |   0.6533E-06          |  0.360236E-02
+
+ div(v): max=   9.8598694570073420E-008 mean=   2.3535124733609847E-009 mean/vrms=   7.9870041877068701E-007
+ vrms initial=   2.9466773999985794E-003
+ vrms final=   3.6023599375236389E-003
+ ==> Writing in vtk file: VTK/All_div_final_node_4.vtk
+ ==> Writing in vtk file: VTK/All_P_final_node_4.vtk
+ ==> Writing in vtk file: VTK/All_V_final_node_4.vtk
+ ==> Writing in vtk file: VTK/All_deltaV_node_4.vtk
+ Output results in :./OUTPUT_DIR/STB11_Vbox_4.dat
+ ------------------------------------------------------------------- 
+ Reading file: ./INPUT_DIR/STB11_5.dat
+ Processing frame:           5
+ arx_orig=  0.38462202154999997      ary_orig=  0.10924175759999999      arz_orig=  0.23896634475000000     
+ x orig range:  -4.8682101100000000E-002  0.33593992044999998     
+ y orig range:  -1.1209957300000000E-004  0.10912965802699999     
+ z orig range:  -3.3874500500000002E-002  0.20509184424999999     
+ vrms dim (m/s)=   2.9182572581129490E-003 vms ND=   3183.6045995769973      Re= rho0  vrms L /eta0=     104.15848354173342     
+ Pr = eta/(rho*Kappa) =   30.565005281604499      Kappa re-estimated=   4.2840169106271685E-007
+ ==> Writing in vtk file: VTK/All_div_initial_node_5.vtk
+ ==> Writing in vtk file: VTK/All_V_initial_dim_node_5.vtk
+ ==> Writing in vtk file: VTK/All_div_initial_interp_node_5.vtk
+ ==> Writing in vtk file: VTK/All_V_initial_interp_node_5.vtk
+ Poisson MG V-cycle       RMS residual           <div(v)>/Vrms           Vrms
+    1              |      0.4622E-02          |   0.6057E+00          |  0.359010E-02
+    2              |      0.5515E-03          |   0.7449E-01          |  0.358974E-02
+    3              |      0.7332E-04          |   0.9597E-02          |  0.358972E-02
+    4              |      0.9874E-05          |   0.1298E-02          |  0.358971E-02
+    5              |      0.1351E-05          |   0.1836E-03          |  0.358971E-02
+    6              |      0.1894E-06          |   0.2701E-04          |  0.358971E-02
+    7              |      0.2736E-07          |   0.4108E-05          |  0.358971E-02
+    8              |      0.4088E-08          |   0.6421E-06          |  0.358971E-02
+
+ div(v): max=   1.1653011612600128E-007 mean=   2.3049796325573987E-009 mean/vrms=   7.8984799100538593E-007
+ vrms initial=   2.9182572581129490E-003
+ vrms final=   3.5897159155905806E-003
+ ==> Writing in vtk file: VTK/All_div_final_node_5.vtk
+ ==> Writing in vtk file: VTK/All_P_final_node_5.vtk
+ ==> Writing in vtk file: VTK/All_V_final_node_5.vtk
+ ==> Writing in vtk file: VTK/All_deltaV_node_5.vtk
+ Output results in :./OUTPUT_DIR/STB11_Vbox_5.dat
+ ------------------------------------------------------------------- 
+ Reading file: ./INPUT_DIR/STB11_6.dat
+ Processing frame:           6
+ arx_orig=  0.38462202154999997      ary_orig=  0.10924175759999999      arz_orig=  0.23896634475000000     
+ x orig range:  -4.8682101100000000E-002  0.33593992044999998     
+ y orig range:  -1.1209957300000000E-004  0.10912965802699999     
+ z orig range:  -3.3874500500000002E-002  0.20509184424999999     
+ vrms dim (m/s)=   2.9279359085983602E-003 vms ND=   3194.1632972783023      Re= rho0  vrms L /eta0=     104.50393408571416     
+ Pr = eta/(rho*Kappa) =   30.565005281604499      Kappa re-estimated=   4.2840169106271685E-007
+ ==> Writing in vtk file: VTK/All_div_initial_node_6.vtk
+ ==> Writing in vtk file: VTK/All_V_initial_dim_node_6.vtk
+ ==> Writing in vtk file: VTK/All_div_initial_interp_node_6.vtk
+ ==> Writing in vtk file: VTK/All_V_initial_interp_node_6.vtk
+ Poisson MG V-cycle       RMS residual           <div(v)>/Vrms           Vrms
+    1              |      0.4666E-02          |   0.6148E+00          |  0.359320E-02
+    2              |      0.5566E-03          |   0.7554E-01          |  0.359284E-02
+    3              |      0.7396E-04          |   0.9706E-02          |  0.359282E-02
+    4              |      0.9959E-05          |   0.1311E-02          |  0.359282E-02
+    5              |      0.1362E-05          |   0.1852E-03          |  0.359282E-02
+    6              |      0.1906E-06          |   0.2718E-04          |  0.359282E-02
+    7              |      0.2746E-07          |   0.4120E-05          |  0.359282E-02
+    8              |      0.4089E-08          |   0.6421E-06          |  0.359282E-02
+
+ div(v): max=   1.1459231137600501E-007 mean=   2.3071167417609519E-009 mean/vrms=   7.8796695480448468E-007
+ vrms initial=   2.9279359085983602E-003
+ vrms final=   3.5928185759666323E-003
+ ==> Writing in vtk file: VTK/All_div_final_node_6.vtk
+ ==> Writing in vtk file: VTK/All_P_final_node_6.vtk
+ ==> Writing in vtk file: VTK/All_V_final_node_6.vtk
+ ==> Writing in vtk file: VTK/All_deltaV_node_6.vtk
+ Output results in :./OUTPUT_DIR/STB11_Vbox_6.dat
+ ------------------------------------------------------------------- 
+ Reading file: ./INPUT_DIR/STB11_7.dat
+ Processing frame:           7
+ arx_orig=  0.38462202154999997      ary_orig=  0.10924175759999999      arz_orig=  0.23896634475000000     
+ x orig range:  -4.8682101100000000E-002  0.33593992044999998     
+ y orig range:  -1.1209957300000000E-004  0.10912965802699999     
+ z orig range:  -3.3874500500000002E-002  0.20509184424999999     
+ vrms dim (m/s)=   2.9279063344286147E-003 vms ND=   3194.1310340285258      Re= rho0  vrms L /eta0=     104.50287852398665     
+ Pr = eta/(rho*Kappa) =   30.565005281604499      Kappa re-estimated=   4.2840169106271685E-007
+ ==> Writing in vtk file: VTK/All_div_initial_node_7.vtk
+ ==> Writing in vtk file: VTK/All_V_initial_dim_node_7.vtk
+ ==> Writing in vtk file: VTK/All_div_initial_interp_node_7.vtk
+ ==> Writing in vtk file: VTK/All_V_initial_interp_node_7.vtk
+ Poisson MG V-cycle       RMS residual           <div(v)>/Vrms           Vrms
+    1              |      0.4993E-02          |   0.6588E+00          |  0.358241E-02
+    2              |      0.6156E-03          |   0.8258E-01          |  0.358198E-02
+    3              |      0.8227E-04          |   0.1068E-01          |  0.358195E-02
+    4              |      0.1110E-04          |   0.1448E-02          |  0.358195E-02
+    5              |      0.1522E-05          |   0.2053E-03          |  0.358195E-02
+    6              |      0.2136E-06          |   0.3023E-04          |  0.358195E-02
+    7              |      0.3086E-07          |   0.4601E-05          |  0.358195E-02
+    8              |      0.4604E-08          |   0.7200E-06          |  0.358195E-02
+
+ div(v): max=   1.3996894680790017E-007 mean=   2.5789277316767885E-009 mean/vrms=   8.8080950587514953E-007
+ vrms initial=   2.9279063344286147E-003
+ vrms final=   3.5819515818861364E-003
+ ==> Writing in vtk file: VTK/All_div_final_node_7.vtk
+ ==> Writing in vtk file: VTK/All_P_final_node_7.vtk
+ ==> Writing in vtk file: VTK/All_V_final_node_7.vtk
+ ==> Writing in vtk file: VTK/All_deltaV_node_7.vtk
+ Output results in :./OUTPUT_DIR/STB11_Vbox_7.dat
+ ------------------------------------------------------------------- 
+ Reading file: ./INPUT_DIR/STB11_8.dat
+ Processing frame:           8
+ arx_orig=  0.38462202154999997      ary_orig=  0.10924175759999999      arz_orig=  0.23896634475000000     
+ x orig range:  -4.8682101100000000E-002  0.33593992044999998     
+ y orig range:  -1.1209957300000000E-004  0.10912965802699999     
+ z orig range:  -3.3874500500000002E-002  0.20509184424999999     
+ vrms dim (m/s)=   2.9293531084723526E-003 vms ND=   3195.7093583820038      Re= rho0  vrms L /eta0=     104.55451680570577     
+ Pr = eta/(rho*Kappa) =   30.565005281604499      Kappa re-estimated=   4.2840169106271685E-007
+ ==> Writing in vtk file: VTK/All_div_initial_node_8.vtk
+ ==> Writing in vtk file: VTK/All_V_initial_dim_node_8.vtk
+ ==> Writing in vtk file: VTK/All_div_initial_interp_node_8.vtk
+ ==> Writing in vtk file: VTK/All_V_initial_interp_node_8.vtk
+ Poisson MG V-cycle       RMS residual           <div(v)>/Vrms           Vrms
+    1              |      0.4782E-02          |   0.6301E+00          |  0.359207E-02
+    2              |      0.5526E-03          |   0.7698E-01          |  0.359170E-02
+    3              |      0.7309E-04          |   0.9956E-02          |  0.359167E-02
+    4              |      0.9915E-05          |   0.1363E-02          |  0.359167E-02
+    5              |      0.1375E-05          |   0.1955E-03          |  0.359167E-02
+    6              |      0.1959E-06          |   0.2908E-04          |  0.359167E-02
+    7              |      0.2875E-07          |   0.4461E-05          |  0.359167E-02
+    8              |      0.4352E-08          |   0.7018E-06          |  0.359167E-02
+
+ div(v): max=   1.1679570287304042E-007 mean=   2.5206621734580987E-009 mean/vrms=   8.6048423666227627E-007
+ vrms initial=   2.9293531084723526E-003
+ vrms final=   3.5916725109815407E-003
+ ==> Writing in vtk file: VTK/All_div_final_node_8.vtk
+ ==> Writing in vtk file: VTK/All_P_final_node_8.vtk
+ ==> Writing in vtk file: VTK/All_V_final_node_8.vtk
+ ==> Writing in vtk file: VTK/All_deltaV_node_8.vtk
+ Output results in :./OUTPUT_DIR/STB11_Vbox_8.dat
+ ------------------------------------------------------------------- 
+ Reading file: ./INPUT_DIR/STB11_9.dat
+ Processing frame:           9
+ arx_orig=  0.38462202154999997      ary_orig=  0.10924175759999999      arz_orig=  0.23896634475000000     
+ x orig range:  -4.8682101100000000E-002  0.33593992044999998     
+ y orig range:  -1.1209957300000000E-004  0.10912965802699999     
+ z orig range:  -3.3874500500000002E-002  0.20509184424999999     
+ vrms dim (m/s)=   2.9131820832035801E-003 vms ND=   3178.0679560407893      Re= rho0  vrms L /eta0=     103.97734031976445     
+ Pr = eta/(rho*Kappa) =   30.565005281604499      Kappa re-estimated=   4.2840169106271685E-007
+ ==> Writing in vtk file: VTK/All_div_initial_node_9.vtk
+ ==> Writing in vtk file: VTK/All_V_initial_dim_node_9.vtk
+ ==> Writing in vtk file: VTK/All_div_initial_interp_node_9.vtk
+ ==> Writing in vtk file: VTK/All_V_initial_interp_node_9.vtk
+ Poisson MG V-cycle       RMS residual           <div(v)>/Vrms           Vrms
+    1              |      0.4787E-02          |   0.6506E+00          |  0.357475E-02
+    2              |      0.5719E-03          |   0.8237E-01          |  0.357437E-02
+    3              |      0.7754E-04          |   0.1089E-01          |  0.357435E-02
+    4              |      0.1076E-04          |   0.1511E-02          |  0.357435E-02
+    5              |      0.1526E-05          |   0.2193E-03          |  0.357435E-02
+    6              |      0.2217E-06          |   0.3305E-04          |  0.357435E-02
+    7              |      0.3303E-07          |   0.5123E-05          |  0.357435E-02
+    8              |      0.5041E-08          |   0.8101E-06          |  0.357435E-02
+
+ div(v): max=   1.3920459565608390E-007 mean=   2.8956309742781217E-009 mean/vrms=   9.9397527911947139E-007
+ vrms initial=   2.9131820832035801E-003
+ vrms final=   3.5743496372586240E-003
+ ==> Writing in vtk file: VTK/All_div_final_node_9.vtk
+ ==> Writing in vtk file: VTK/All_P_final_node_9.vtk
+ ==> Writing in vtk file: VTK/All_V_final_node_9.vtk
+ ==> Writing in vtk file: VTK/All_deltaV_node_9.vtk
+ Output results in :./OUTPUT_DIR/STB11_Vbox_9.dat
+ ------------------------------------------------------------------- 
+ Reading file: ./INPUT_DIR/STB11_10.dat
+ Processing frame:          10
+ arx_orig=  0.38462202154999997      ary_orig=  0.10924175759999999      arz_orig=  0.23896634475000000     
+ x orig range:  -4.8682101100000000E-002  0.33593992044999998     
+ y orig range:  -1.1209957300000000E-004  0.10912965802699999     
+ z orig range:  -3.3874500500000002E-002  0.20509184424999999     
+ vrms dim (m/s)=   2.8885342550729210E-003 vms ND=   3151.1789835938939      Re= rho0  vrms L /eta0=     103.09760965395371     
+ Pr = eta/(rho*Kappa) =   30.565005281604499      Kappa re-estimated=   4.2840169106271685E-007
+ ==> Writing in vtk file: VTK/All_div_initial_node_10.vtk
+ ==> Writing in vtk file: VTK/All_V_initial_dim_node_10.vtk
