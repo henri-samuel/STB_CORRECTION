@@ -3,11 +3,10 @@ STB_correction is a software that performs corrections on a 3D velocity field in
 to apply rigid boundary conditions on all surfaces under a divergence-free constraint.
 
 ! -----------------------------------------!
-! Author: Henri Samuel, 31/08/2023         !
+! Author: Henri Samuel, 05/10/2023         !
 ! Version: 1.0.0                           !
 ! Distributed under the GNU GPLv3 Licence  !
 ! -----------------------------------------!
-!
 ! STB_correction is a software that performs corrections on a 3D velocity field in a Cartesian domain 
 ! to apply rigid boundary conditions on all surfaces under a divergence-free constraint.
 ! STB_correction was developped to process velocity fields extracted from Particle Tracking Velocimetry in a convection tank using a Shake-The-Box approach
@@ -15,22 +14,6 @@ to apply rigid boundary conditions on all surfaces under a divergence-free const
 ! The resulting velocity field was found inconsistent with the existence of rigid boundaries near the edges of the domains where the PTV has trouble
 ! detecting and tracking particles. 
 ! The STB algorithm used by DaVis did not have the capability of handling these issues, which motivated the implementation of STB_correction. 
-!
-! The STB_correction code proceeds as follows: 
-! (1) Reads input file(s) to be corrected for velocities at the boundaries.
-! -----------------------------------------!
-! Author: Henri Samuel, 05/10/2023         !
-! Version: 1.0.0                           !
-! Distributed under the GNU GPLv3 Licence  !
-! -----------------------------------------!
-!
-! STB_correction is a software that performs corrections on a 3D velocity field in a Cartesian domain 
-! to apply rigid boundary conditions on all surfaces under a divergence-free constraint.
-! STB_correction was developped to process velocity fields extracted from Particle Tracking Velocimetry in a convection tank using a Shake-The-Box approach
-! implemented in the LaVision DaVis software.
-! The resulting velocity field was found inconsistent with the existence of rigid boundaries near the edges of the domains where the PTV has trouble
-! detecting and tracking particles. 
-! The  STB algorithm used by DaVis did not have the capability of handling these issues, which motivated the implementation of STB_correction. 
 !
 ! The STB_correction code proceeds as follows: 
 ! (1) Reads input (ASCII) file(s) to be corrected for velocities at the boundaries.

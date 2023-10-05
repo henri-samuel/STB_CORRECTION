@@ -1,0 +1,4 @@
+OBJ/*.o
+VTK/*.vtk
+OUTPUT_DIR/*
+
