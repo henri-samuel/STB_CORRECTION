@@ -6,6 +6,7 @@ to apply rigid boundary conditions on all surfaces under a divergence-free const
 ! Author: Henri Samuel, 05/10/2023         !
 ! Version: 1.0.0                           !
 ! Distributed under the GNU GPLv3 Licence  !
+! doi 10.5281/zenodo.10009514              ! 
 ! -----------------------------------------!
 ! STB_correction is a software that performs corrections on a 3D velocity field in a Cartesian domain 
 ! to apply rigid boundary conditions on all surfaces under a divergence-free constraint.
